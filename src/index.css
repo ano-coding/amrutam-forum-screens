@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for WebKit browsers */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 7px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #ebebeb;
+}
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #e5e3e3;
+}
+
+/* Custom scrollbar for Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #ebebeb transparent;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #bbbaba #f4f4f4;
+}
